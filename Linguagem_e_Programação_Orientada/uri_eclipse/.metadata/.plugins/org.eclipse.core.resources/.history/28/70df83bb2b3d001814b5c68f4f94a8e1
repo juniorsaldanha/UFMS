@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+import com.sun.xml.internal.ws.api.pipe.NextAction;
+public class ex09 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double x = sc.nextDouble();
+		convert p = new conv(x);
+		sc.close();
+	}
+
+	public class convert {
+		public double cel;
+		public double fah;
+		
+		
+		public conv(double x){
+			this.fah = x;
+		}
+		public void converter(double fah) {
+			this.cel = ((fah-32)*(5/9));
+		}
+		
+		public void print_(){
+			System.out.println("Celsius = " + this.cel);
+		}
+	}
+}

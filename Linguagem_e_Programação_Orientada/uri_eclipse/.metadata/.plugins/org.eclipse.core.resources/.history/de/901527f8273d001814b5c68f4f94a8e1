@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class ex09 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double f = sc.nextDouble();
+		Fahrenheit2Celsius w = new Fahrenheit2Celsius();
+		w.fah = sc.nextDouble();
+		w.cel = fasf(w.fah);
+		System.out.println("Celsius = " + w.cel);
+		sc.close();
+	}
+	
+}
+public class Fahrenheit2Celsius{
+	double fah;
+	double cel;
+	public static double fasf(double fah){
+		return ((fah-32)*(5/9));
+	}
+}

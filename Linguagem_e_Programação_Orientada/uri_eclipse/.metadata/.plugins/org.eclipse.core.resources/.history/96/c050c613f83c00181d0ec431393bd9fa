@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class ex07 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int aa = a;
+		int bb = b;
+		int quociente = 0;
+		int resto;
+		for(;aa > b;){
+			aa = aa - b;
+			++quociente;
+		}
+		System.out.println("quociente = "+ quociente);
+		System.out.println("resto = "+ resto);
+		sc.close();
+	}
+}

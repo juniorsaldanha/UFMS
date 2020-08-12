@@ -1,0 +1,21 @@
+class ex10 {
+	static int i;
+	public static void main(String args[]){
+		Fahrenheit2Celsius f = new Fahrenheit2Celsius('o');
+		f.cel = 120.9;
+		Fahrenheit2Celsius o = new Fahrenheit2Celsius();
+		System.out.println(o);
+		System.out.println(o == f);
+		/*for(i=0;i<3;i++){
+			System.out.print(i);
+		}
+		for(int i=2; i<3;i++){
+			System.out.print(i);
+		}
+		int i;
+		for(i=0;i<2;i++){
+			System.out.print(i);
+		}
+		System.out.print(ex10.i);*/
+	}
+}

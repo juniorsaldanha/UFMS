@@ -1,0 +1,11 @@
+Help on built-in function translate:
+
+ttrraannssllaattee(...)
+    S.translate(table [,deletechars]) -> string
+    
+    Return a copy of the string S, where all characters occurring
+    in the optional argument deletechars are removed, and the
+    remaining characters have been mapped through the given
+    translation table, which must be a string of length 256 or None.
+    If the table argument is None, no translation is applied and
+    the operation simply removes the characters in deletechars.

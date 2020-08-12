@@ -1,0 +1,14 @@
+
+public class teste {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ex10 a = new ex10();
+		System.out.println(a.i);
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+import javax.naming.ldap.SortKey;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
+final class ex10 {
+	static int i = 0;
+	public static void main(String args[]){
+		for(i=0;i<3;i++){
+			System.out.print(i);
+		}
+		for(int i=2; i<3;i++){
+			System.out.print(i);
+		}
+		int i;
+		for(i=0;i<2;i++){
+			System.out.print(i);
+		}
+		System.out.print(ex10.i);
+	}
+	int v[] = new int[5];
+}

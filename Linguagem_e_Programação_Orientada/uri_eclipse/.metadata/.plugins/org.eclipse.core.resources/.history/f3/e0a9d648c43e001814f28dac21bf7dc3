@@ -1,0 +1,60 @@
+class
+Author {
+static
+final
+String 
+PUBLISHER
+= "Terra Nova";
+String name;
+String email;
+char
+gender;
+Author(String name, String email, 
+char
+gender) {
+this
+.name = name;
+this
+.email = email;
+this
+.gender = gender;
+}
+public
+static
+void
+main(String[] args) {
+Author a=
+new
+Author("Joao", "joao@abc.com", 'M');
+System.
+out
+.println(a.name);
+System.
+out
+.println
+(a.email);
+System.
+out
+.println(a.gender);
+Book b = 
+new
+Book(a, "meu livro");
+System.
+out
+.println(b.name);
+System.
+out
+.println(b.author.name);
+}
+}
+class
+Book {
+Author author;
+String name;
+Book(Author author, String name) {
+this
+.author = author;
+this
+.name = name;
+}
+}

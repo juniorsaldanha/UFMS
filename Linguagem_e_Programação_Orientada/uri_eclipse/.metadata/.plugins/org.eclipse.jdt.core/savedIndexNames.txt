@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/home/umsaldanha/UFMS/Linguagem_e_Programação_Orientada/uri_eclipse/.metadata/.plugins/org.eclipse.jdt.core
+573750304.index
+3144595136.index
+2722629703.index
+3141266842.index

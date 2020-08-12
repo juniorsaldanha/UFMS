@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class caralho{
+	private double fah;
+	private double cel;
+	public caralho(double fah){
+		this.fah = fah;
+		this.cel = ((fah-32.0)*(5.0/9.0));
+	}
+
+	public void print_cel() {
+		System.out.println("Celsius = " + this.cel);
+	}
+}
+
+public class ex09{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double p = sc.nextDouble();sc.close();
+		caralho aa = new caralho(p);
+		aa.print_cel();
+	}
+}

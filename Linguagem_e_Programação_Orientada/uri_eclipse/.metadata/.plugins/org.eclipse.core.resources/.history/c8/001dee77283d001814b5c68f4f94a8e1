@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class ex09 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		convert w = new convert();
+		w.fah = sc.nextDouble();
+		w.cel = function__(w.fah);
+		System.out.println("Celsius = " + w.cel);
+		sc.close();
+	}
+	
+}
+public class convert{
+	double fah;
+	double cel;
+	private static double function__(double fah) {
+		return ((fah-32)*(5/9));
+	}
+}
